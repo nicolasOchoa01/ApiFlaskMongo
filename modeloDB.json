@@ -1,0 +1,15 @@
+database: audiosDB
+
+collection: users
+
+user = 
+
+{
+    "_id" : ObjectId("671abc2f63b063088822a4ea"),
+    "password_audio_file_id" : ObjectId("671abc2c63b063088822a4df"),
+    "audios" : [
+            ObjectId("671ac1ae63b06309507ecf10"),
+            ObjectId("671ac1dd63b06309507ecf1b")
+    ],
+    "username" : "nico"
+}

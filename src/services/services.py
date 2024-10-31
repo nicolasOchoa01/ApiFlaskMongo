@@ -258,6 +258,7 @@ def token_required(f):
 #     return transcripcion_text
 
 def validar_voz(ruta_audio1, ruta_audio2):
+
     # verificar si las dos voces coinciden
     score, prediccion = modelo.verify_files(ruta_audio1, ruta_audio2)
 
